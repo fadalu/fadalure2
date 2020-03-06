@@ -1,0 +1,159 @@
+* { 
+    margin: 0px; 
+    padding: 0px; 
+   } 
+   #cabeceralogo { 
+    display: flex; 
+    justify-content: center; 
+    width: 96%; 
+    height: 150px; 
+    padding: 1% 2%; 
+    background-color: #CD5C5C;
+   } 
+   #cabeceralogo > div { 
+    flex: 1; 
+    max-width: 960px; 
+    padding-top: 20px; 
+   } 
+   .estilotitulo{
+        margin: 2px; 
+        padding: 8px;   
+        text-align: center;    
+        background:  -webkit-linear-gradient(top,#E9967A 50%, #DC143C 90%); 
+   }
+   #cabeceralogo h1 { 
+    font: bold 54px Arial, sans-serif; 
+    color: #FFFFFF; 
+   } 
+   .borde {   
+    margin: 5px;   
+    padding: 1% 2%;  
+    text-align: center;   
+    border: 3px dashed #CCCCCC; 
+   } 
+   main { 
+    display: flex; 
+    justify-content: center; 
+    width: 96%; 
+    padding: 2%; 
+    background-image: url("https://previews.123rf.com/images/krekdm/krekdm1607/krekdm160700086/59591887-modelo-incons%C3%BAtil-de-cine-puede-ser-utilizado-para-el-papel-pintado-fondo-del-web-site-papel-de-embalaje.jpg"); 
+   } 
+   main > div { 
+    display: flex; 
+    flex: 1; 
+    max-width: 960px; 
+   } 
+   #articulosprincipales { 
+    flex: 1; 
+    margin-right: 20px; 
+    padding-top: 30px; 
+    background-color: #FFA07A; 
+    border-radius: 10px; 
+   } 
+   #articulosprincipales h1 { 
+     text-align:center;
+     color:#FFFFFF
+   }
+   #infoadicional { 
+    width: 280px; 
+    padding: 20px; 
+    background-color: #FFA07A; 
+    border-radius: 10px; 
+   } 
+   #infoadicional h1 { 
+    font: bold 25px Arial, sans-serif; 
+    color: #000000; 
+    margin-bottom: 15px; 
+   } 
+   .numerodia { 
+    font: bold 36px Verdana, sans-serif; 
+    color: #FFFFFF; 
+    text-align: center; 
+   } 
+   .nombredia { 
+    font: 12px Verdana, sans-serif; 
+    color: #FFFFFF; 
+    text-align: center; 
+   } 
+   article h1 { 
+    margin-bottom: 5px; 
+    font: bold 30px Georgia, sans-serif; 
+   } 
+   article p { 
+    font: 18px Georgia, sans-serif;
+    text-align:justify; 
+   } 
+   figure { 
+    margin: 10px 0px; 
+   } 
+   figure img { 
+    max-width: 98%; 
+    padding: 1%; 
+    border: 1px solid; 
+   } 
+   #pielogo { 
+    display: flex; 
+    justify-content: center; 
+    width: 96%; 
+    padding: 2%; 
+    background-color: #CD5C5C; 
+   } 
+   #pielogo > div { 
+    display: flex; 
+    flex: 1; 
+    max-width: 1000px; 
+    background-color: #FA8072; 
+    border-radius: 50px; 
+   } 
+   .seccionpie { 
+    flex: 1; 
+    padding: 55px; 
+   } 
+   .seccionpie h1 { 
+    font: bold 20px Arial, sans-serif; 
+   } 
+   .seccionpie p { 
+    margin-top: 5px; 
+   } 
+   .seccionpie a { 
+    font: bold 16px Arial, sans-serif; 
+    color: #FFFFFF; 
+    text-decoration: none; 
+   } 
+   .imagenseccion{
+      width:300px;
+      height: 350px;
+   }
+   #tablas{
+      margin: 0;
+      width: 600px;
+   }
+   .table{
+      background-color: #04B4AE;
+      text-align: left;
+      width: 100%;
+      border-collapse: collapse;	
+   }
+   .tableh{
+      border: solid 2px black;
+      padding:20px;
+   }
+   #tablet{
+      background-color:#0B615E;
+      border-bottom:solid 5px #000000; 
+      color:white;
+   }
+   .fondo{
+      margin: 30px;   
+      padding: 15px;   
+      text-align: center; 
+      background-image: url("https://previews.123rf.com/images/krekdm/krekdm1607/krekdm160700086/59591887-modelo-incons%C3%BAtil-de-cine-puede-ser-utilizado-para-el-papel-pintado-fondo-del-web-site-papel-de-embalaje.jpg"); 
+   }.zoom:hover{
+      transform : scale(1.5);
+      transition: transform 2s;
+   }
+   .zoomm:hover{
+      transform : scale(0.9);
+      transition: transform 2s;
+   }
+   
